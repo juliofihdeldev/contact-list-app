@@ -1,0 +1,13 @@
+{
+  "appId": "com.contact_list.juliodev",
+  "appName": "juliodev_contact_list",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  },
+  "cordova": {}
+}

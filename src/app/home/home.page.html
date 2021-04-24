@@ -1,0 +1,22 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Contact
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+  <div id="container" style="margin-top: 80px;">
+    <ion-list  *ngFor="let contact of contacts" class="ion-margin" >
+      <ion-item (click)="showContact(contact)" class="ion-padding">
+        {{contact.firstName}} <br/>
+        {{contact.lastName}} <br/>
+        {{contact.telephone}}
+      </ion-item>
+    </ion-list>
+    <ion-button class="ion-margin"  expand="full" (click)="loadContact()">Reload</ion-button>  
+
+  </div>
+</ion-content>
