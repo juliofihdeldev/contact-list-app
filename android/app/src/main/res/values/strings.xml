@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">juliodev_contact_list</string>
+    <string name="title_activity_main">juliodev_contact_list</string>
+    <string name="package_name">com.contact_list.juliodev</string>
+    <string name="custom_url_scheme">com.contact_list.juliodev</string>
+</resources>
